@@ -1,0 +1,86 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 20px;
+    padding: 15px 15px;
+    font-family: 'TitilliumWeb-Regular', sans-serif;
+    border: 5px solid #007aff;
+    width: 600px;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.title {
+    width: 54%;
+}
+
+input[type="text" i] {
+    padding: 8px 8px;
+    width: 150px;
+    color: #333333;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.comment {
+    padding: 8px 8px;
+    max-height: 119px;
+    max-width: 225px;
+    min-width: 154px;
+    min-height: 18px;
+    border-radius: 5px;
+    color: #333333;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.buttons {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+    margin-top: 25px;
+}
+
+.button {
+    outline: none;
+    border: none;
+    width: 85px;
+    height: 50px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
